@@ -3,18 +3,34 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<html>
+    <head>
+        <link href="~/Content/mine.css" rel="stylesheet">
 
-<div>
-    <button type="button" id="getter" onclick="requesting()">Images?</button>
-    @Html.ActionLink("TESTING", "Index", "Home")
-</div>
+    </head>
+    <body>
+        <center>
+            <h1 class="Title">Search Giffy!</h1>
+            <div>
+                <input type="text" id="searchFor" />
+                <button type="button" id="getter" onclick="requesting()">Search!</button>
+                <br />
+                Animated: <input type="checkbox" id="animated" />
+                <form>
+                    Rating: G<input type="radio" name="rate" id="g" />
+                    PG<input type="radio" name="rate" id="pg" />
+                    PG-13<input type="radio" name="rate" id="pg13" />
+                    R<input type="radio" name="rate" id="r" />
+                </form>
+            </div>
 
-<div id="test">
+            <div id="test">
 
-</div>
-
-
+            </div>
+        </center>
+    </body>
+</html>
 <script src="~/Scripts/onceAgain.js"></script>
+
 
 

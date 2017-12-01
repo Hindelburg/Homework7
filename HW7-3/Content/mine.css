@@ -1,0 +1,11 @@
+﻿body {
+}
+.Title {
+    text-align: center;
+}
+
+.imageReturned {
+    color: red;
+    background-color: black;
+    padding: 15px 15px 15px 15px;
+}
